@@ -27,3 +27,25 @@ function renderCoutries(results) {
   $("#capital").text(`${results[0].capital[0]}`);
   $("#flag").text(`${results[0].flag}`);
 }
+
+fetch("https://restcountries.com/v3.1/all")
+  .then((res) => res.json())
+  .then((response) => top5(response));
+
+function top5(response) {
+  let top = [];
+  for (let i = 0; i < response.length; i++) {
+    if (top.length < 5) {
+      top.push(response[i]);
+    } else {
+      if (response[i].population > top[0].population) {
+        top.shift();
+        top.unshift(response[i]);
+        top.sort((a, b) => a.population - b.population);
+      }
+    }
+  }
+  renderTopCoutries(top);
+}
+
+function renderTopCoutries(top) {}
