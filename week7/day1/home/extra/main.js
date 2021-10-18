@@ -48,4 +48,16 @@ function top5(response) {
   renderTopCoutries(top);
 }
 
-function renderTopCoutries(top) {}
+function renderTopCoutries(top) {
+  for (let item of top) {
+    let elem = `<tr>
+      <td>${item.flag}</td>
+      <td>${item.name.common}</td>
+      <td>${item.capital}</td>
+      <td>${item.area}</td>
+      <td>${item.population}</td>
+      <td>${Math.floor(item.population / item.area)}</td>
+      </tr>`;
+    $("tbody").append(elem);
+  }
+}

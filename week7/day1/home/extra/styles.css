@@ -1,0 +1,13 @@
+th {
+  width: 120px;
+  height: 20px;
+  border: 1px black solid;
+  text-align: center;
+}
+
+td {
+  width: 120px;
+  height: 20px;
+  border: 1px black solid;
+  text-align: center;
+}
