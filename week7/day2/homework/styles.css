@@ -11,6 +11,12 @@
   flex-wrap: wrap;
 }
 
+.listlist2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 li {
   display: flex;
   width: 400px;
