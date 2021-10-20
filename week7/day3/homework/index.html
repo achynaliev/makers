@@ -48,7 +48,7 @@
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                Add product
+                Add Contact
               </button>
             </li>
           </ul>
@@ -76,81 +76,6 @@
     <!-- Modal -->
     <div
       class="modal fade"
-      id="exampleModalEdit"
-      tabindex="-1"
-      aria-labelledby="exampleModalEditLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalEditLabel">Modal title</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <label for="productNameEdit" class="form-label"
-                >Product name</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="productName"
-                placeholder="product name"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="productPrice" class="form-label">Product price</label>
-              <input
-                type="number"
-                class="form-control"
-                id="productImg"
-                placeholder="product price"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="productPrice" class="form-label">Product url</label>
-              <input
-                type="text"
-                class="form-control"
-                id="productURL"
-                placeholder="product image"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="productDesc" class="form-label"
-                >Product description</label
-              >
-              <textarea
-                class="form-control"
-                id="productDesc"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btnSave">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal edit -->
-
-    <div
-      class="modal fade"
       id="exampleModal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
@@ -169,41 +94,31 @@
           </div>
           <div class="modal-body">
             <div class="mb-3">
-              <label for="productName" class="form-label">Product name</label>
+              <label for="fullnameInp" class="form-label">Full Name</label>
               <input
                 type="text"
                 class="form-control"
-                id="productNameEdit"
-                placeholder="product name"
+                id="fullnameInp"
+                placeholder="full name"
               />
             </div>
             <div class="mb-3">
-              <label for="productPrice" class="form-label">Product price</label>
+              <label for="productPrice" class="form-label">email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailInp"
+                placeholder="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="productPrice" class="form-label">phone number</label>
               <input
                 type="number"
                 class="form-control"
-                id="productImgEdit"
-                placeholder="product price"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="productPrice" class="form-label">Product url</label>
-              <input
-                type="text"
-                class="form-control"
-                id="productImgEdit"
+                id="phonenumber"
                 placeholder="product image"
               />
-            </div>
-            <div class="mb-3">
-              <label for="productDesc" class="form-label"
-                >Product description</label
-              >
-              <textarea
-                class="form-control"
-                id="productDescEdit"
-                rows="3"
-              ></textarea>
             </div>
           </div>
           <div class="modal-footer">
@@ -214,11 +129,75 @@
             >
               Close
             </button>
-            <button type="button" class="btnSave">Save changes</button>
+            <button type="button" class="btnSave">Save Contact</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- EDIT Modal -->
+    <div
+      class="modal fade"
+      id="editModal"
+      tabindex="-1"
+      aria-labelledby="editModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editModal">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="fullnameInp" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullnameEdit"
+                placeholder="full name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="productPrice" class="form-label">email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailEdit"
+                placeholder="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="productPrice" class="form-label">phone number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="phonenumberEdit"
+                placeholder="product image"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="saveChanges">Save changes</button>
+            <button type="button" class="DeleteContact">Delete Contact</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="list d-flex flex-wrap justify-content-between"></div>
       <div class="pagination">
