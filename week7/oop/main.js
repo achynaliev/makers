@@ -30,6 +30,7 @@ console.log(programmer.name); //выведет 'Иван'
 console.log(programmer.lastname); //выведет 'Иванов'
 console.log(programmer.programming_language); //выведет 'Python'
 console.log(programmer.introduceYourself()); //выведет 'Меня зовут Иван Иванов и пишу код на языке Python'
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №2
@@ -70,6 +71,7 @@ console.log(worker.getName()); //выведет 'Иван'
 console.log(worker.getLastName()); //выведет 'Иванов'
 console.log(worker.getPLanguage()); //выведет 'Python'
 console.log(worker.introduceYourself()); //выведет 'Меня зовут Иван
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №3
@@ -111,6 +113,7 @@ let str = new MyString();
 console.log(str.getReverse("abcde")); //выведет 'edcba'
 console.log(str.ucFirst("abcde")); //выведет 'Abcde'
 console.log(str.ucWords("abcde abcde abcde")); //выведет 'Abcde Abcde Abcde'
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №4
@@ -166,6 +169,7 @@ console.log(student.getFullName()); //выведет 'Иван Иванов'
 console.log(student.year); //выведет 2018c
 console.log(student.getCourse()); //выведет 3 - третий курс, так как текущий год 2021
 // Вот так должен выглядеть класс User, от которого наследуется наш Student:
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №5
@@ -207,6 +211,7 @@ regt.setHeight(300);
 regt.setWidth(400);
 console.log(regt.getHeight());
 console.log(regt.getWidth());
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №6
@@ -242,6 +247,7 @@ console.log(worker1.surname); //выведет 'Иванов'
 console.log(worker1.rate); //выведет 10
 console.log(worker1.days); //выведет 31
 console.log(worker1.getSalary()); //выведет 310 - то есть 10*31
+console.log("***********************");
 
 //////////////////////////////////////////
 // Задание №7
@@ -286,3 +292,4 @@ console.log(worker2.getSalary()); //выведет 310 - то есть 10*31
 worker2.setRate(20); //увеличим ставку
 worker2.setDays(10); //уменьшим дни
 console.log(worker2.getSalary()); //выведет 200 - то есть 20*10
+console.log("***********************");
