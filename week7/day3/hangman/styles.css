@@ -1,0 +1,36 @@
+.house {
+  width: 100px;
+  height: 500px;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.lift {
+  width: 30px;
+  height: 49px;
+  position: absolute;
+  background-color: chocolate;
+  border: 1px solid black;
+  top: 90.4%;
+  right: 35%;
+}
+
+.floor {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 15px;
+}

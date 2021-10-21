@@ -57,3 +57,24 @@ $(".goToBtn").on("click", () => {
   let floor = $(".goto").val();
   lift.goToFloor(parseInt(floor));
 });
+
+function checkTask() {
+  for (q = 0; q < 4; q++) {
+    let l = "#";
+    for (let cont = 1; cont < 4; cont++) {
+      if (cont === 3) {
+        l += " # ";
+      } else {
+        l += " #";
+      }
+    }
+    console.log(l);
+    let m = "";
+    for (let cont = 0; cont < 4; cont++) {
+      m += " #";
+    }
+    console.log(m);
+  }
+}
+
+checkTask();
