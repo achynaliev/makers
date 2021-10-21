@@ -1,0 +1,115 @@
+.text {
+  background-image: url("http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif");
+  width: 30px;
+  height: 18px;
+  /* background-color: red; */
+  background-size: 30px;
+  border: solid 1px red;
+  font-family: monospace;
+  font-size: 13px;
+  padding-left: 5px;
+  letter-spacing: 12px;
+}
+
+.main {
+  height: 500px;
+  width: 300px;
+  background-color: rosybrown;
+  position: relative;
+}
+
+.visel {
+  position: absolute;
+  background-color: black;
+  width: 10px;
+  height: 300px;
+  left: 50px;
+  top: 50px;
+}
+
+.visel-2 {
+  position: absolute;
+  background-color: black;
+  width: 130px;
+  height: 10px;
+  left: 50px;
+  top: 50px;
+}
+
+.verevka {
+  position: absolute;
+  background-color: red;
+  width: 5px;
+  height: 50px;
+  left: 180px;
+  top: 50px;
+  display: none;
+}
+
+.head-1 {
+  position: absolute;
+  background-color: rosybrown;
+  border: 5px solid yellow;
+  left: 158px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 100px;
+  display: none;
+}
+
+.body-1 {
+  position: absolute;
+  background-color: rosybrown;
+  border: 5px solid green;
+  border-radius: 100px / 50px;
+  left: 145px;
+  top: 150px;
+  width: 70px;
+  height: 100px;
+  display: none;
+}
+
+.r-hand {
+  position: absolute;
+  background-color: blue;
+  width: 5px;
+  height: 50px;
+  left: 242px;
+  top: 130px;
+  transform: rotate(0.2turn);
+  display: none;
+}
+
+.l-hand {
+  position: absolute;
+  background-color: blue;
+  width: 5px;
+  height: 50px;
+  left: 120px;
+  top: 130px;
+  transform: rotate(0.3turn);
+  display: none;
+}
+
+.r-foot {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 70px;
+  left: 240px;
+  top: 240px;
+  transform: rotate(0.4turn);
+  display: none;
+}
+
+.l-foot {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 70px;
+  left: 125px;
+  top: 240px;
+  transform: rotate(0.1turn);
+  display: none;
+}
