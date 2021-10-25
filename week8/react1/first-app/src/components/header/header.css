@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: darkorchid;
+  font-size: 18px;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  background-color: cadetblue;
+}
